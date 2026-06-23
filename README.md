@@ -30,6 +30,8 @@ For the easiest test install, download the demo APK:
 
 Android may ask you to allow installs from your browser or file manager. This APK is debug-signed for demo/review installs and is not meant for Play Store distribution.
 
+### Open in Android Studio
+
 Open Android Studio.
 
 Choose **File > Open**.
