@@ -2,10 +2,6 @@
 
 A working Android prototype for an internal real estate operations platform.
 
-Present it as:
-
-> A working internal operations prototype showing how a brokerage could centralize staff workflows, AI-assisted drafting, listing launches, offer reviews, compliance reminders, and automation visibility.
-
 ## Download The Demo APK
  
  Install the demo APK directly on an Android phone or tablet:
@@ -29,41 +25,6 @@ Open the downloaded APK from **Files** or **Downloads**. If prompted, allow inst
 
 - Brand-inspired palette: ivory, white, mist grey, soft sage, brass, and restrained status colours.
 - Typography direction: the public Bespoke site loads Poiret One and Lato. The prototype uses Android-native equivalents to avoid live font-provider dependencies during demos.
-
-## Open In Android Studio
-
-Open Android Studio.
-
-Choose **File > Open**.
-
-Select the `android` folder in this repo.
-
-Let Gradle sync.
-
-Run the app configuration on an Android emulator or Android device.
-
-You can also build it from the terminal:
-
-```powershell
-cd android
-.\gradlew.bat :app:assembleDebug
-```
-
-## Rebuild The Demo APK
-
-If you want to rebuild the installable demo APK yourself, run this from the `android` folder:
-
-```powershell
-.\gradlew.bat :app:assembleDemo
-```
-
-The rebuilt presentation APK is created at:
-
-```text
-android/app/build/outputs/apk/demo/BespokeOps-demo-release.apk
-```
-
-The `demo` build behaves like a release build with `debuggable=false`, uses fictional records, and is signed for easy installation on presentation devices.
 
 ## Notes
 
