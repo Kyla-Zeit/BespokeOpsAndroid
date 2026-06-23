@@ -1,8 +1,6 @@
-# Bespoke Ops Android Prototype
+# Bespoke Ops Prototype
 
-This is an Android Studio-ready prototype for an internal real estate automation app.
-
-## What A Company Like This Needs
+A prototype for an internal real estate automation app.
 
 - One intake hub for agent requests, approvals, marketing work, and listing launch tasks.
 - AI drafting tools with reusable prompts for listing copy, emails, summaries, and offer notes.
@@ -33,28 +31,6 @@ The prototype includes:
 - Primary colour: `#1C3E54`, taken from the public Bespoke logo SVG.
 - Supporting palette: ivory, white, mist grey, soft sage, brass, and restrained status colours.
 - Typography direction: the public site loads Poiret One and Lato. The prototype uses Android-native equivalents: a thin display face for branded headers and a clean sans-serif for operations text, avoiding live font-provider dependencies during demos.
-
-## Open In Android Studio
-
-Open this folder:
-
-`C:\Users\REBEC\Documents\Codex\2026-06-22\wh\outputs\BespokeOpsAndroid`
-
-Android Studio should prompt for Gradle sync and SDK setup. The project has been verified with debug, demo, and release builds using Android Studio's bundled JDK.
-
-If sync shows a `Tag mismatch` or `(bad_record_mac)` download error, click **Sync Project with Gradle Files** again. That error usually means a corrupted dependency download. This project now uses Android Gradle plugin `9.1.1`, which is already present in the local Gradle cache on this machine.
-
-## Demo Build
-
-The presentation APK is:
-
-`app/build/outputs/apk/demo/BespokeOps-demo-release.apk`
-
-Build it with:
-
-`.\gradlew.bat :app:assembleDemo`
-
-The `demo` build behaves like a release build with `debuggable=false`, uses fictional records, and is signed for easy installation on presentation devices.
 
 ## Next Real Integrations
 
