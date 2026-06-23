@@ -2,7 +2,21 @@
 
 A working Android prototype for an internal real estate operations platform.
 
-Bespoke Ops demonstrates how a brokerage could centralize staff workflows, AI-assisted drafting, listing launches, offer reviews, compliance reminders, and automation visibility.
+Present it as:
+
+> A working internal operations prototype showing how a brokerage could centralize staff workflows, AI-assisted drafting, listing launches, offer reviews, compliance reminders, and automation visibility.
+
+## Download The Demo APK
+
+If you do not have Android Studio, install the demo APK directly on an Android phone or tablet:
+
+[Download BespokeOps-demo-release.apk](https://github.com/Kyla-Zeit/BespokeOpsAndroid/raw/main/BespokeOps-demo-release.apk)
+
+This same URL belongs in the GitHub repository **About > Website** field.
+
+On Android, open the downloaded APK from **Files** or **Downloads**. If prompted, allow installs from that source, then install and open **Bespoke Ops**.
+
+GitHub does not run Android apps in the browser. The APK link downloads the installable app; Android Studio is only needed if someone wants to inspect or rebuild the source code.
 
 ## What It Shows
 
@@ -20,17 +34,7 @@ Bespoke Ops demonstrates how a brokerage could centralize staff workflows, AI-as
 - Brand-inspired palette: ivory, white, mist grey, soft sage, brass, and restrained status colours.
 - Typography direction: the public Bespoke site loads Poiret One and Lato. The prototype uses Android-native equivalents to avoid live font-provider dependencies during demos.
 
-## How to Run
-
-### Quick demo APK
-
-For the easiest test install, download the demo APK:
-
-[Download BespokeOps-demo-release.apk](https://github.com/Kyla-Zeit/BespokeOpsAndroid/raw/main/BespokeOps-demo-release.apk)
-
-Android may ask you to allow installs from your browser or file manager. This APK is debug-signed for demo/review installs and is not meant for Play Store distribution.
-
-### Open in Android Studio
+## Open In Android Studio
 
 Open Android Studio.
 
@@ -47,25 +51,17 @@ You can also build it from the terminal:
 ```powershell
 cd android
 .\gradlew.bat :app:assembleDebug
+```
 
-## Demo Build
+## Rebuild The Demo APK
 
-From the `android` folder, build the installable demo APK with:
+If you want to rebuild the installable demo APK yourself, run this from the `android` folder:
 
 ```powershell
 .\gradlew.bat :app:assembleDemo
 ```
 
-The presentation APK is created at:
-
-```text
-android/app/build/outputs/apk/demo/BespokeOps-demo-release.apk
-```
-## Open Without Android Studio
-
-If you only want to try the app, install the demo APK on an Android phone.
-
-Build output:
+The rebuilt presentation APK is created at:
 
 ```text
 android/app/build/outputs/apk/demo/BespokeOps-demo-release.apk
