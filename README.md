@@ -26,7 +26,7 @@ Bespoke Ops demonstrates how a brokerage could centralize staff workflows, AI-as
 
 For the easiest test install, download the demo APK:
 
-[Download BespokeOps-demo-release.apk](https://github.com/Kyla-Zeit/intellicase-pro/raw/main/BespokeOps-demo-release.apk)
+[Download BespokeOps-demo-release.apk](https://github.com/Kyla-Zeit/BespokeOpsAndroid/raw/main/BespokeOps-demo-release.apk)
 
 Android may ask you to allow installs from your browser or file manager. This APK is debug-signed for demo/review installs and is not meant for Play Store distribution.
 
