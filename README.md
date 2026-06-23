@@ -1,15 +1,8 @@
 # Bespoke Ops Prototype
 
-A prototype for an internal real estate operations platform.
+A working Android prototype for an internal real estate operations platform.
 
-# What A Company Like This Needs
-A prototype for an internal real estate automation app.
-
-- One intake hub for agent requests, approvals, marketing work, and listing launch tasks.
-- AI drafting tools with reusable prompts for listing copy, emails, summaries, and offer notes.
-@@ -34,28 +32,6 @@ The prototype includes:
-- Supporting palette: ivory, white, mist grey, soft sage, brass, and restrained status colours.
-- Typography direction: the public site loads Poiret One and Lato. The prototype uses Android-native equivalents: a thin display face for branded headers and a clean sans-serif for operations text, avoiding live font-provider dependencies during demos.
+Bespoke Ops demonstrates how a brokerage could centralize staff workflows, AI-assisted drafting, listing launches, offer reviews, compliance reminders, and automation visibility.
 
 ## What It Shows
 
@@ -22,7 +15,12 @@ A prototype for an internal real estate automation app.
 - CRM, Gmail, Sheets, Canva, and automation handoff concepts
 - Internal visibility for staff and managers
 
-## Open The Android App
+## Design Direction
+
+- Brand-inspired palette: ivory, white, mist grey, soft sage, brass, and restrained status colours.
+- Typography direction: the public Bespoke site loads Poiret One and Lato. The prototype uses Android-native equivalents to avoid live font-provider dependencies during demos.
+
+## How to Run
 
 Open Android Studio.
 
@@ -39,7 +37,6 @@ You can also build it from the terminal:
 ```powershell
 cd android
 .\gradlew.bat :app:assembleDebug
-```
 
 ## Demo Build
 
@@ -54,6 +51,14 @@ The presentation APK is created at:
 ```text
 android/app/build/outputs/apk/demo/BespokeOps-demo-release.apk
 ```
+## Open Without Android Studio
+
+If you only want to try the app, install the demo APK on an Android phone.
+
+Build output:
+
+```text
+android/app/build/outputs/apk/demo/BespokeOps-demo-release.apk
 
 The `demo` build behaves like a release build with `debuggable=false`, uses fictional records, and is signed for easy installation on presentation devices.
 
