@@ -7,16 +7,12 @@ Present it as:
 > A working internal operations prototype showing how a brokerage could centralize staff workflows, AI-assisted drafting, listing launches, offer reviews, compliance reminders, and automation visibility.
 
 ## Download The Demo APK
-
-If you do not have Android Studio, install the demo APK directly on an Android phone or tablet:
+ 
+ Install the demo APK directly on an Android phone or tablet:
 
 [Download BespokeOps-demo-release.apk](https://github.com/Kyla-Zeit/BespokeOpsAndroid/raw/main/BespokeOps-demo-release.apk)
 
-This same URL belongs in the GitHub repository **About > Website** field.
-
-On Android, open the downloaded APK from **Files** or **Downloads**. If prompted, allow installs from that source, then install and open **Bespoke Ops**.
-
-GitHub does not run Android apps in the browser. The APK link downloads the installable app; Android Studio is only needed if someone wants to inspect or rebuild the source code.
+Open the downloaded APK from **Files** or **Downloads**. If prompted, allow installs from that source, then install and open **Bespoke Ops**.
 
 ## What It Shows
 
