@@ -59,9 +59,10 @@ Build output:
 
 ```text
 android/app/build/outputs/apk/demo/BespokeOps-demo-release.apk
+```
 
 The `demo` build behaves like a release build with `debuggable=false`, uses fictional records, and is signed for easy installation on presentation devices.
-```
+
 ## Notes
 
 - Demo records are fictional.
