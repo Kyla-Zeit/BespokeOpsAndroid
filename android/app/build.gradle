@@ -27,4 +27,13 @@ android {
             matchingFallbacks = ["release"]
         }
     }
+
+}
+
+androidComponents {
+    onVariants(selector().withBuildType("demo")) { variant ->
+        variant.outputs.forEach { output ->
+            output.outputFileName.set("BespokeOps-demo-release.apk")
+        }
+    }
 }
