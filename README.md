@@ -1,10 +1,15 @@
 # Bespoke Ops Prototype
 
-A working Android prototype for an internal real estate operations platform.
+A prototype for an internal real estate operations platform.
 
-Present it as:
+# What A Company Like This Needs
+A prototype for an internal real estate automation app.
 
-> A working internal operations prototype showing how a brokerage could centralize staff workflows, AI-assisted drafting, listing launches, offer reviews, compliance reminders, and automation visibility.
+- One intake hub for agent requests, approvals, marketing work, and listing launch tasks.
+- AI drafting tools with reusable prompts for listing copy, emails, summaries, and offer notes.
+@@ -34,28 +32,6 @@ The prototype includes:
+- Supporting palette: ivory, white, mist grey, soft sage, brass, and restrained status colours.
+- Typography direction: the public site loads Poiret One and Lato. The prototype uses Android-native equivalents: a thin display face for branded headers and a clean sans-serif for operations text, avoiding live font-provider dependencies during demos.
 
 ## What It Shows
 
