@@ -3,6 +3,8 @@ name: Capture Bespoke Ops README screenshots
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 permissions:
   contents: write
@@ -15,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Java
         uses: actions/setup-java@v5
@@ -101,4 +105,5 @@ jobs:
             exit 0
           fi
           git commit -m "Add real Bespoke Ops Android screenshots"
-          git push
+          PUSH_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+          git push origin "HEAD:${PUSH_BRANCH}"
